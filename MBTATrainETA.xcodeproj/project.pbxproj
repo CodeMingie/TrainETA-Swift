@@ -7,25 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		222D0A5D1CB48C6800F9E012 /* GetServiceData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222D0A5C1CB48C6800F9E012 /* GetServiceData.swift */; };
+		22C4EEF51CC06DD500F87E3C /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C4EEF41CC06DD500F87E3C /* Trip.swift */; };
 		22C51D291CB15B680049E614 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C51D281CB15B680049E614 /* AppDelegate.swift */; };
 		22C51D2B1CB15B680049E614 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C51D2A1CB15B680049E614 /* ViewController.swift */; };
 		22C51D2E1CB15B680049E614 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22C51D2C1CB15B680049E614 /* Main.storyboard */; };
 		22C51D301CB15B680049E614 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22C51D2F1CB15B680049E614 /* Images.xcassets */; };
 		22C51D331CB15B680049E614 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22C51D311CB15B680049E614 /* LaunchScreen.xib */; };
-		22C51D3F1CB15B680049E614 /* MBTATrainETATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C51D3E1CB15B680049E614 /* MBTATrainETATests.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		22C51D391CB15B680049E614 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 22C51D1B1CB15B680049E614 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 22C51D221CB15B680049E614;
-			remoteInfo = MBTATrainETA;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		221EDE421CC263AF0033F8F7 /* MBTATrainETATest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MBTATrainETATest.swift; sourceTree = "<group>"; };
+		222D0A5C1CB48C6800F9E012 /* GetServiceData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetServiceData.swift; sourceTree = "<group>"; };
+		22C4EEF41CC06DD500F87E3C /* Trip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Trip.swift; sourceTree = "<group>"; };
 		22C51D231CB15B680049E614 /* MBTATrainETA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MBTATrainETA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22C51D271CB15B680049E614 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		22C51D281CB15B680049E614 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -33,20 +27,10 @@
 		22C51D2D1CB15B680049E614 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		22C51D2F1CB15B680049E614 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		22C51D321CB15B680049E614 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		22C51D381CB15B680049E614 /* MBTATrainETATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MBTATrainETATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		22C51D3D1CB15B680049E614 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		22C51D3E1CB15B680049E614 /* MBTATrainETATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBTATrainETATests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		22C51D201CB15B680049E614 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		22C51D351CB15B680049E614 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -59,8 +43,8 @@
 		22C51D1A1CB15B680049E614 = {
 			isa = PBXGroup;
 			children = (
+				221EDE421CC263AF0033F8F7 /* MBTATrainETATest.swift */,
 				22C51D251CB15B680049E614 /* MBTATrainETA */,
-				22C51D3B1CB15B680049E614 /* MBTATrainETATests */,
 				22C51D241CB15B680049E614 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -69,7 +53,6 @@
 			isa = PBXGroup;
 			children = (
 				22C51D231CB15B680049E614 /* MBTATrainETA.app */,
-				22C51D381CB15B680049E614 /* MBTATrainETATests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -83,6 +66,8 @@
 				22C51D2F1CB15B680049E614 /* Images.xcassets */,
 				22C51D311CB15B680049E614 /* LaunchScreen.xib */,
 				22C51D261CB15B680049E614 /* Supporting Files */,
+				222D0A5C1CB48C6800F9E012 /* GetServiceData.swift */,
+				22C4EEF41CC06DD500F87E3C /* Trip.swift */,
 			);
 			path = MBTATrainETA;
 			sourceTree = "<group>";
@@ -91,23 +76,6 @@
 			isa = PBXGroup;
 			children = (
 				22C51D271CB15B680049E614 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		22C51D3B1CB15B680049E614 /* MBTATrainETATests */ = {
-			isa = PBXGroup;
-			children = (
-				22C51D3E1CB15B680049E614 /* MBTATrainETATests.swift */,
-				22C51D3C1CB15B680049E614 /* Supporting Files */,
-			);
-			path = MBTATrainETATests;
-			sourceTree = "<group>";
-		};
-		22C51D3C1CB15B680049E614 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				22C51D3D1CB15B680049E614 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -132,24 +100,6 @@
 			productReference = 22C51D231CB15B680049E614 /* MBTATrainETA.app */;
 			productType = "com.apple.product-type.application";
 		};
-		22C51D371CB15B680049E614 /* MBTATrainETATests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 22C51D451CB15B680049E614 /* Build configuration list for PBXNativeTarget "MBTATrainETATests" */;
-			buildPhases = (
-				22C51D341CB15B680049E614 /* Sources */,
-				22C51D351CB15B680049E614 /* Frameworks */,
-				22C51D361CB15B680049E614 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				22C51D3A1CB15B680049E614 /* PBXTargetDependency */,
-			);
-			name = MBTATrainETATests;
-			productName = MBTATrainETATests;
-			productReference = 22C51D381CB15B680049E614 /* MBTATrainETATests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -161,10 +111,7 @@
 				TargetAttributes = {
 					22C51D221CB15B680049E614 = {
 						CreatedOnToolsVersion = 6.2;
-					};
-					22C51D371CB15B680049E614 = {
-						CreatedOnToolsVersion = 6.2;
-						TestTargetID = 22C51D221CB15B680049E614;
+						DevelopmentTeam = RTP3SYS7Y3;
 					};
 				};
 			};
@@ -182,7 +129,6 @@
 			projectRoot = "";
 			targets = (
 				22C51D221CB15B680049E614 /* MBTATrainETA */,
-				22C51D371CB15B680049E614 /* MBTATrainETATests */,
 			);
 		};
 /* End PBXProject section */
@@ -198,13 +144,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		22C51D361CB15B680049E614 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -212,28 +151,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22C4EEF51CC06DD500F87E3C /* Trip.swift in Sources */,
 				22C51D2B1CB15B680049E614 /* ViewController.swift in Sources */,
+				222D0A5D1CB48C6800F9E012 /* GetServiceData.swift in Sources */,
 				22C51D291CB15B680049E614 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		22C51D341CB15B680049E614 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				22C51D3F1CB15B680049E614 /* MBTATrainETATests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		22C51D3A1CB15B680049E614 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 22C51D221CB15B680049E614 /* MBTATrainETA */;
-			targetProxy = 22C51D391CB15B680049E614 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		22C51D2C1CB15B680049E614 /* Main.storyboard */ = {
@@ -337,54 +262,26 @@
 		22C51D431CB15B680049E614 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = MBTATrainETA/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		22C51D441CB15B680049E614 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = MBTATrainETA/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		22C51D461CB15B680049E614 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = MBTATrainETATests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MBTATrainETA.app/MBTATrainETA";
-			};
-			name = Debug;
-		};
-		22C51D471CB15B680049E614 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = MBTATrainETATests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MBTATrainETA.app/MBTATrainETA";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -407,14 +304,7 @@
 				22C51D441CB15B680049E614 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		22C51D451CB15B680049E614 /* Build configuration list for PBXNativeTarget "MBTATrainETATests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				22C51D461CB15B680049E614 /* Debug */,
-				22C51D471CB15B680049E614 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
